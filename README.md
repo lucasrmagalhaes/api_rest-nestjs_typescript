@@ -27,3 +27,10 @@ localhost:3000
 ```
 
 ---
+
+*Inicializar o servidor do Nest de outra maneira, servidor sempre atualizando*
+```
+npm run start:dev
+```
+
+---
