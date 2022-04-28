@@ -64,3 +64,24 @@ SHOW TABLES;
 ```
 
 ---
+
+[Sequelize Integration](https://docs.nestjs.com/techniques/database#sequelize-integration)
+
+```
+npm install --save @nestjs/sequelize sequelize sequelize-typescript mysql2
+```
+
+```
+npm install --save-dev @types/sequelize
+```
+
+```
+mysql -u root -p --port 3306
+```
+
+```
+USE livraria;
+DESC livros;
+```
+
+---
