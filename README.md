@@ -40,3 +40,11 @@ npm run start:dev
 ![Status Code](https://github.com/lucasrmagalhaes/api_rest-nestjs_typescript/blob/main/assets/img/status_code.png)
 
 ---
+
+Injeção de dependência é um importante padrão de projeto que ajuda a manter um baixo nível de acoplamento entre classes. Nesta solução, as dependências de uma classe não são definidas programaticamente, mas sim pelo framework ou pela linguagem utilizada.
+
+![Com Injeção de Dependência]()
+
+![Sem Injeção de Dependência]()
+
+---
