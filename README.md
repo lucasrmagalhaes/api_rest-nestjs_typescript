@@ -85,3 +85,9 @@ DESC livros;
 ```
 
 ---
+
+ Existe um outro pacote ORM que se chama TypeORM, ele é uma ótima alternativa ao sequelize, e o TypeORM foi criado já em typescript, então atualmente ele é um dos frameworks mais maduros para integração com banco de dados escrito em typescript.
+
+ ![typeorm exemplo]()
+
+ ---
