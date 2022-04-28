@@ -1,12 +1,22 @@
-export class Livro {
-    id: number;
-    codigo: string;
-    nome: string;
-    preco: number;
+import { Table, Model, Column, DataType } from "sequelize-typescript";
 
-    constructor(codigo: string, nome: string, preco: number) {
-        this.codigo = codigo;
-        this.nome = nome;
-        this.preco = preco;
-    }
+@Table
+export class Livro extends Model<Livro> {
+    @Column({
+        type: DataType.STRING(60),
+        allowNull: false
+    })
+    codigo: string;
+
+    @Column({
+        type: DataType.STRING,
+        allowNull: false
+    })
+    nome: string;
+
+    @Column({
+        type: DataType.DECIMAL(10, 2), // Tamanho 10, 2 casas decimais
+        allowNull: false
+    })
+    preco: number;
 }
