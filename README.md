@@ -35,8 +35,8 @@ npm run start:dev
 
 ---
 
-![Rotas]()
+![Rotas](https://github.com/lucasrmagalhaes/api_rest-nestjs_typescript/blob/main/assets/img/rotas.png)
 
-![Status Code]()
+![Status Code](https://github.com/lucasrmagalhaes/api_rest-nestjs_typescript/blob/main/assets/img/status_code.png)
 
 ---
