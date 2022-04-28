@@ -14,7 +14,7 @@ nest -v
 
 *Criação do projeto*
 ```
-nest new produtos-api
+nest new livros-api
 ```
 
 *Iniciar o projeto*
@@ -43,8 +43,24 @@ npm run start:dev
 
 Injeção de dependência é um importante padrão de projeto que ajuda a manter um baixo nível de acoplamento entre classes. Nesta solução, as dependências de uma classe não são definidas programaticamente, mas sim pelo framework ou pela linguagem utilizada.
 
-![Com Injeção de Dependência]()
+![Com Injeção de Dependência](https://github.com/lucasrmagalhaes/api_rest-nestjs_typescript/blob/main/assets/img/com_injecao_de_dependencia.png)
 
-![Sem Injeção de Dependência]()
+![Sem Injeção de Dependência](https://github.com/lucasrmagalhaes/api_rest-nestjs_typescript/blob/main/assets/img/sem_injecao_de_dependencia.png)
+
+---
+
+*Criando o banco de dados MySQL*
+```
+SHOW DATABASES;
+```
+
+```
+CREATE DATABASE livraria;
+```
+
+```
+USE livraria;
+SHOW TABLES;
+```
 
 ---
