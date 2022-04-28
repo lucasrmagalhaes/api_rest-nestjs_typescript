@@ -90,8 +90,16 @@ DESC livros;
 
  O TypeORM é um dos pacotes mais maduros disponíveis para TypeScript. Como ele é escrito em TypeScript é nativamente integrado ao Nest. É uma boa alternativa ao Sequelize.
 
- ![typeorm exemplo]()
+ ![typeorm exemplo](https://github.com/lucasrmagalhaes/api_rest-nestjs_typescript/blob/main/assets/img/typeorm_exemplo.png)
 
 É possível usar bibliotecas que permitem escrever código SQL no projeto ou usar ferramentas ORM como o Sequelize e TypeORM.
+
+ ---
+
+ [techniques/configuration](https://docs.nestjs.com/techniques/configuration)
+
+```
+npm i --save @nestjs/config
+```
 
  ---
