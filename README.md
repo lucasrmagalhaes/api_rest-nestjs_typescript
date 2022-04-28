@@ -1,5 +1,7 @@
 <h3 align="center">NestJS: criando uma API Rest com TypeScript</h3>
 
+O Nest funciona praticamente com qualquer banco de dados SQL ou NoSQL. Existem inúmeras opções disponíveis, depende da sua preferência. De maneira geral, conectar o Nest à um banco de dados é simples, basta instalar e configurar o driver apropriado.
+
 ---
 
 *Instalação do Nest.js*
@@ -85,3 +87,11 @@ DESC livros;
 ```
 
 ---
+
+ O TypeORM é um dos pacotes mais maduros disponíveis para TypeScript. Como ele é escrito em TypeScript é nativamente integrado ao Nest. É uma boa alternativa ao Sequelize.
+
+ ![typeorm exemplo]()
+
+É possível usar bibliotecas que permitem escrever código SQL no projeto ou usar ferramentas ORM como o Sequelize e TypeORM.
+
+ ---
