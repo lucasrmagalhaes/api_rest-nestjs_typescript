@@ -34,3 +34,9 @@ npm run start:dev
 ```
 
 ---
+
+![Rotas]()
+
+![Status Code]()
+
+---
